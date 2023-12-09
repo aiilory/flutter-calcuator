@@ -66,7 +66,7 @@ class _CalculatorState extends State<Calculator> {
       child: Material(
         clipBehavior: Clip.hardEdge,
         color: [Btn.clear, Btn.del, Btn.per].contains(value)
-            ? Colors.redAccent
+            ? Color.fromARGB(255, 169, 34, 186)
             : [Btn.plus, Btn.minus, Btn.divide, Btn.multiply].contains(value)
                 ? Colors.yellowAccent
                 : Btn.eqaual == value
